@@ -50,4 +50,3 @@ def remove_row(id:int, api_key: str = Header(None)):
         else:
             data["items"].pop(id)
             return {"message": f"Item with ID {id} has been deleted successfully."}
-        
